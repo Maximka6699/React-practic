@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+import React, { Component} from 'react'
 import './App.css';
+import Bg from './Bg.js';
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +21,19 @@ function App() {
       </header>
     </div>
   );
+}*/
+
+const App = () =>{
+  return(
+    <div className="App">
+    Simple HTML
+    <p>
+      <li>first</li>
+      <li>second</li>
+      <li>therd</li>
+    </p>
+    </div>
+    );
 }
 
 export default App;
